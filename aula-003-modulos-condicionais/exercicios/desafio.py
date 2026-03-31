@@ -1,0 +1,1 @@
+# receber idade e indicar se o voto é opicional
