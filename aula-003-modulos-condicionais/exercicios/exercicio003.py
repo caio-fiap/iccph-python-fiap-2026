@@ -1,3 +1,5 @@
+#recebe dois numeros e indica qual o maior (ou se sao iguais)
+
 num_a = float(input("Informe um número: "))
 num_b = float(input("Informe outro número: "))
 
