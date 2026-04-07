@@ -1,6 +1,11 @@
 # abrir e reproduzir um mp3
+import pygame
 
-from playsound import playsound
+pygame.init()
+pygame.mixer.init()
 
-playsound('C:/Users/labsfiap/Downloads/fah.mp3')
+pygame.mixer.music.load('C:/Users/labsfiap/Documents/GitHub/iccph-python-fiap-2026/aula-003-modulos-condicionais/exercicios/audio.mp3')
+pygame.mixer.music.play()
+pygame.event.wait()
+
 print("Audio maneirão")
