@@ -7,3 +7,12 @@ nota3 = float(input("Terceira nota: "))
 nota4 = float(input("Quarta nota: "))
 
 media = (nota1 + nota2 + nota3 + nota4) / 4
+
+if media < 5:
+    print("Reprovado!")
+elif 5 <= media < 7:
+    print("Recuperação!")
+else:
+    print("Aprovado")
+
+
